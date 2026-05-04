@@ -1,0 +1,53 @@
+@startuml
+
+skinparam component {
+  BackgroundColor<<Page>> LightBlue
+  BackgroundColor<<Layout>> LightGreen
+  BackgroundColor<<Component>> LightYellow
+}
+
+title Architecture React - DRCC DIANA
+
+package "src" {
+  [App.jsx] as App
+
+  package "pages" {
+    [PageAccueil.jsx] as PageAccueil <<Page>>
+  }
+
+  package "layouts" {
+    [MainLayout.jsx] as MainLayout <<Layout>>
+  }
+
+  package "components" {
+    [Navbar.jsx] as Navbar <<Component>>
+    [HeroBanner.jsx] as HeroBanner <<Component>>
+    [Footer.jsx] as Footer <<Component>>
+  }
+}
+
+' Relations
+App --> PageAccueil : import
+PageAccueil --> MainLayout : wrapper
+MainLayout --> Navbar : import
+MainLayout --> Footer : import
+PageAccueil --> HeroBanner : import
+
+' Structure visuelle
+rectangle "Structure de la Page" {
+  card "Navbar\n(sticky top)" as NavCard
+  card "HeroBanner\n(section)" as HeroCard
+  card "Section Contenu\n(grid 3 cols)" as ContentCard
+  card "Footer\n(bottom)" as FooterCard
+}
+
+NavCard -[hidden]-> HeroCard
+HeroCard -[hidden]-> ContentCard
+ContentCard -[hidden]-> FooterCard
+
+MainLayout ..> NavCard : render
+MainLayout ..> FooterCard : render
+PageAccueil ..> HeroCard : render
+PageAccueil ..> ContentCard : render
+
+@enduml
