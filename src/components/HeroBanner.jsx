@@ -1,4 +1,5 @@
 import heroImage from "../assets/imageHero.jpg";
+import ListeServices from "./ListeServices";
 
 const HeroBanner = () => {
   return (
@@ -9,10 +10,10 @@ const HeroBanner = () => {
         className="absolute inset-0 w-full h-full object-cover object-bottom"
       />
       <div className="absolute inset-0 bg-black/40" />
-      <div className="relative z-10 w-full h-full flex items-center py-12 px-6 md:py-16 md:px-12">
+      <div className="relative z-10 w-full h-full flex flex-col items-center py-12 px-6 md:py-16 md:px-12">
         <div className="w-full max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Left side - Title */}
-          <div className="md:w-3/5 text-center md:text-left">
+          <div className="md:w-5/5 text-center md:text-left">
             <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white uppercase tracking-wide leading-tight drop-shadow-lg">
               Direction Régionale du Commerce et de la Consommation Diana
             </h1>
@@ -99,6 +100,8 @@ const HeroBanner = () => {
             </div>
           </div>
         </div>
+        {/* Services en dessous */}
+        <ListeServices />
       </div>
     </section>
   );
