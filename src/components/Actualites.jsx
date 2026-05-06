@@ -5,7 +5,9 @@ const Actualites = () => {
   return (
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">Actualités</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-8">
+          Actualités du 06 mai 2026
+        </h2>
         <section className="mb-12">
           <div className="bg-white rounded-xl shadow-md p-8">
             <div className="flex flex-col md:flex-row items-center gap-8">
@@ -14,9 +16,10 @@ const Actualites = () => {
                   À LA UNE
                 </span>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Inauguration de la route vers Atazoalava
+                  RÉUNION CONCERNANT MPOX À POL 6 ANTSIRANANA
                 </h3>
                 <section className="text-gray-600 mb-4 leading-relaxed space-y-4">
+                  <h1 className="text-blue-900 font-bold ">Généralité</h1>
                   <p>
                     Il est inauguré aujourd'hui samedi le 02 mai 2026 la route
                     en pavé de 400m vers Atazoalava. Elle a été fait a partir du
