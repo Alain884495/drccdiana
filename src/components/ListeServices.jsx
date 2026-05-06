@@ -15,7 +15,7 @@ const services = [
       "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400&h=300&fit=crop",
     description:
       "Contrôle des instruments de mesure et vérification des balances.",
-    responsable: "M. RAKOTOMALALA Jean Noël",
+    responsable: "",
     phone: "+261 32 XX XXX XX",
   },
   {

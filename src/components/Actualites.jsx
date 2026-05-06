@@ -16,52 +16,64 @@ const Actualites = () => {
                   À LA UNE
                 </span>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  RÉUNION CONCERNANT MPOX À POL 6 ANTSIRANANA
+                  RÉUNION CONCERNANT LE MPOX À POL 6 ANTSIRANANA
                 </h3>
                 <section className="text-gray-600 mb-4 leading-relaxed space-y-4">
-                  <h1 className="text-blue-900 font-bold ">Généralité</h1>
-                  <p>
-                    Il est inauguré aujourd'hui samedi le 02 mai 2026 la route
-                    en pavé de 400m vers Atazoalava. Elle a été fait a partir du
-                    budget de CIAD de l'année 2025.
-                  </p>
-                  <p>
-                    La cérémonie d’inauguration a été assistée, comme le
-                    montrent les images, par les autorités locales. À cette
-                    occasion, les habitants ont pu exprimer leur satisfaction et
-                    également formuler leurs doléances face au pillage des
-                    terrains, en pointant du doigt les responsables du Domaine.
-                    Ils ont mentionné que, malgré les titres fonciers qu’ils
-                    exhibaient comme preuve devant toutes les autorités,
-                    l’administration concernée parvient à effectuer des
-                    falsifications et contredit ce qui est écrit sur leurs
-                    titres.
-                  </p>
-                  <p>
-                    Après cela, Monsieur le Préfet a directement pris la parole
-                    pour rassurer les habitants et citer quelques textes en
-                    vigueur concernant l’acquisition des terrains. Il a déclaré
-                    : "Tany tandalana ny firenentsika ary tena miady mafy
-                    amin'ny tsy maty manota amin'ny halatra tany". Il a
-                    poursuivi : "Tokony manaiky ny fandaminana isika eo amin'ny
-                    lafiny plan d’urbanisme, mba tsy hanorinorina fahatany
-                    amin'ny tany izay efa fantatra izao fa eo no atao ny lalana,
-                    atao biraom-pokontany, sns. Satria eo, hoy izy, no
-                    mampifanolana ny vahoaka sy ny mpitondra fanjakana,
-                    indrindra fa ny Commune.
-                  </p>
-                  <p>
-                    rès la prise de parole de Monsieur le Préfet, Monsieur le
-                    Député Bora Réglage a pris la parole et a transmis le
-                    message suivant : "Vita ny asa 2025 ary nofaranana tamin'ny
-                    fahavitan'ny Pavé izao, fa ny taona 2026 kosa dia lalana any
-                    amin'y fokotany Citée ouvrière no hatao ary iarahana amin'ny
-                    Région ny ampahany amin'izany." Et il a suivi par :"Efa
-                    tonga ny investisseur Chinois izay hamatsy antsika amin'ny
-                    herinaratra mandeha amin'ny masoandro izay mahatakatra
-                    hatramin'ny 15 MW ka mety hampihena ny vidinjoro ho
-                    latsakin'ny 25% raha oharina amin'ny ankehitriny."
-                  </p>
+                  <h1 className="text-blue-900 font-bold text-xl mb-0">
+                    Généralité
+                  </h1>
+                  <ul className="list-disc pl-6 space-y-2 text-base">
+                    <li>
+                      <strong>Situation actuelle : </strong>
+                      Quatre décès recensés à Madagascar.
+                    </li>
+                    <li>
+                      <strong>Actions prises par l'État: </strong>
+                      <br />
+                      Augmentation du budget des vaccins, passant de 3 milliards
+                      à 23 milliards d’ariary.
+                      <br />
+                      Vaccination obligatoire pour les militaires et
+                      sensibilisation massive des professionnels du sexe.
+                    </li>
+                    <li>
+                      <strong>Autres mesures : </strong>
+                      <br />
+                      Obligation de mise à disposition de solutions
+                      hydroalcooliques ou d’autres dispositifs de lavage des
+                      mains, ainsi que d’équipements adaptés pour le lavage de
+                      la vaisselle, dans les établissements de restauration et
+                      d’hébergement.
+                    </li>
+                    <li>
+                      <strong>Premier signe de la maladie : </strong>
+                      <br />
+                      Au début, une éruption cutanée apparaît dans les zones
+                      génitales, puis elle se propage progressivement à
+                      l’ensemble du corps. Ce qui la différencie des autres
+                      affections similaires est la présence de lésions cutanées
+                      avec suppuration, ainsi que leur persistance au niveau des
+                      mains et des pieds.
+                    </li>
+                    <li>
+                      <strong>Mode de transmission : </strong>
+                      <br />
+                      Par contact direct avec une personne infectée ou par
+                      contact avec des objets contaminés. Contrairement au
+                      coronavirus, la transmission par voie aérienne est
+                      limitée, car le virus survit mal dans un milieu isolé,
+                      d'où l'efficacité de cache-bouche. Mais attention, son
+                      point fort est la transmission cutanée.
+                    </li>
+                    <li>
+                      <strong>Hevitran'ny maro : </strong>
+                      <br />
+                      Tsy maladie MST ny Mpox, kanefa voalaza matetika tao ny
+                      fomba fifindrany amin'ny halalan'izany ary hatao
+                      fanentanana manokana araka ny tapaka tamin'ny fivorina ny
+                      quartier Tanambao 5.
+                    </li>
+                  </ul>
                 </section>
                 <div className="flex items-center gap-4 text-sm text-gray-500">
                   <span className="flex items-center gap-1">
@@ -78,7 +90,7 @@ const Actualites = () => {
                         d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                       />
                     </svg>
-                    02 Mai 2026
+                    06 Mai 2026
                   </span>
                   <span className="flex items-center gap-1">
                     <svg
@@ -94,7 +106,7 @@ const Actualites = () => {
                         d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    5 min de lecture
+                    2 min de lecture
                   </span>
                 </div>
               </div>
