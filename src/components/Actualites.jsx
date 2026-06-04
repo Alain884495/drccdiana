@@ -6,72 +6,106 @@ const Actualites = () => {
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-gray-900 mb-8">
-          Actualités du 06 mai 2026
+          FANOMANANA NY FETIN'NY FAHALEOVANTENA 2026
         </h2>
         <section className="mb-12">
           <div className="bg-white rounded-xl shadow-md p-8">
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="md:w-2/3">
                 <span className="inline-block bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-4">
-                  À LA UNE
+                  Ny Vaovao Maresaka
                 </span>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  RÉUNION CONCERNANT LE MPOX À POL 6 ANTSIRANANA
+                  Fivoriana mahakasika ny fanomanana ny fetin'ny fahaleovantena
+                  2026.
                 </h3>
                 <section className="text-gray-600 mb-4 leading-relaxed space-y-4">
                   <h1 className="text-blue-900 font-bold text-xl mb-0">
-                    Généralité
+                    Amin'ny ankapobeny
                   </h1>
                   <ul className="list-disc pl-6 space-y-2 text-base">
                     <li>
-                      <strong>Situation actuelle : </strong>
-                      Quatre décès recensés à Madagascar.
+                      <strong>Ny toe-draharaha misy ankehitriny : </strong>
+                      <br />
+                      Andriamatoa Prefet d'Antsiranana no nanokatra ny fivoriana
+                      ka hoy izy hoe: "Maro ny activités sociales izay atao
+                      mialohan'ny 26 jiona sy mandritra izany ka ilana vola
+                      avikoa ny fanomanana rehetra izany".
+                      <ul className="list-disc pl-6 space-y-2 text-base">
+                        <li>
+                          Ao ny Activité sportive izay hifaninanan'ny
+                          mpiasam-panjakana;
+                        </li>
+                        <li>
+                          Ao ny Activité culturelle, ary hoy Préfet, tsy maintsy
+                          aseho ny maha-malagasy ka hoy izy hoe: "Tsy maintsy
+                          hasiana ireo mpanao vako-drazana tsy CD fa tena izy
+                          hita-maso, ary ny Talem-paritrin'ny kolontsaina efa
+                          tonga de mandray an-tanana izany avy hatrany".
+                        </li>
+                        <li>
+                          Ao ny Activité ho an'ny ankizy, toy ny radio-crochet
+                          ka ny Cisco no mandray antanana izany hoy izy.
+                        </li>
+                      </ul>
                     </li>
                     <li>
-                      <strong>Actions prises par l'État: </strong>
+                      <strong>Ireo fomba fitadiavana vola: </strong>
                       <br />
-                      Augmentation du budget des vaccins, passant de 3 milliards
-                      à 23 milliards d’ariary.
-                      <br />
-                      Vaccination obligatoire pour les militaires et
-                      sensibilisation massive des professionnels du sexe.
+                      Ny tapaka nandritra ny fivoriana dia hanao ball ny
+                      commission ka izany dia atao amin'ny 19 jiona 2026 ery
+                      amin'ny bâtiment hôtel de la poste taloha. Ka noho izany,
+                      ny Talé rehetra dia tsy maintsy mividy billet de couple
+                      amin'ny vidiny 70.000 Ar, ary tsy maintsy mahalafo billet
+                      30.000 Ar dimy amin'ny mpiara-miasa aminy, raha tsy izany
+                      dia izy no manefa billet rehetra.
+                      <br /> <br />
+                      Misy ihany koa ny demande de sponsoring izay tokony
+                      hataon'ny Talem-paritra tsirairay, isika mo ao
+                      anatin'izany satria, isika commerce dia ao anatin'ny
+                      Commission Finance. Nilaza mo ny Talen'ny Tanora, ny Rano,
+                      sy ny maro hafa teo anatrehan'ny Atoa Prefet fa efa
+                      mahalala sy zatra izany ny opérateur économique eto
+                      amintsika, ka tsy tokony hanahirana ny fanaovana ny
+                      demande de sponsoring. Ny tsy fanaovana azy aza no tokony
+                      hanenena satria fety hiaraha-manana io.
                     </li>
                     <li>
-                      <strong>Autres mesures : </strong>
+                      <strong>Ny fizotran'ny fankalazana : </strong>
                       <br />
-                      Obligation de mise à disposition de solutions
-                      hydroalcooliques ou d’autres dispositifs de lavage des
-                      mains, ainsi que d’équipements adaptés pour le lavage de
-                      la vaisselle, dans les établissements de restauration et
-                      d’hébergement.
+                      <ul className="list-disc pl-6 space-y-2 text-base">
+                        <li>
+                          Hatomboka ny fankalazana @ le 21 jiona 2026 ho avy
+                          izao amin'ny alalan'ny "Fetin'ny Mosika", arahina
+                          kabary tarihiny Préfet sy ireo manam-pahefana
+                          isan-tsokajiny izany.
+                        </li>
+                        <li>
+                          Ny 22 jiona 2026, radio-crochet, karaoké, orchestré
+                        </li>
+                        <li>
+                          Ny 25 jiona 2026, jusqu'à l'aube et commence à 18h ny
+                          retraite aux flambeaux izay hatrefin'ireo
+                          manam-pahefana sy Talém-paritra rehetra.
+                        </li>
+                        <li>
+                          Ny 26 jiona 2026, maraina be tokony hasina feon'ny
+                          Sambo maresaka be hoy ny Préfet.
+                        </li>
+                      </ul>
                     </li>
                     <li>
-                      <strong>Premier signe de la maladie : </strong>
+                      <strong>Ny antsipiriany : </strong>
                       <br />
-                      Au début, une éruption cutanée apparaît dans les zones
-                      génitales, puis elle se propage progressivement à
-                      l’ensemble du corps. Ce qui la différencie des autres
-                      affections similaires est la présence de lésions cutanées
-                      avec suppuration, ainsi que leur persistance au niveau des
-                      mains et des pieds.
-                    </li>
-                    <li>
-                      <strong>Mode de transmission : </strong>
-                      <br />
-                      Par contact direct avec une personne infectée ou par
-                      contact avec des objets contaminés. Contrairement au
-                      coronavirus, la transmission par voie aérienne est
-                      limitée, car le virus survit mal dans un milieu isolé,
-                      d'où l'efficacité de cache-bouche. Mais attention, son
-                      point fort est la transmission cutanée.
-                    </li>
-                    <li>
-                      <strong>Hevitran'ny maro : </strong>
-                      <br />
-                      Tsy maladie MST ny Mpox, kanefa voalaza matetika tao ny
-                      fomba fifindrany amin'ny halalan'izany ary hatao
-                      fanentanana manokana araka ny tapaka tamin'ny fivorina ny
-                      quartier Tanambao 5.
+                      Hoy SG Région: "Teneno amin'ireo olona mpifaninana, mpanao
+                      vako-drazana, sns, fa fentim-pirenena no hatao ka tsy vola
+                      na trophée no tanjona fa fiarahana". Namaly avy hatrany
+                      moa i Atoa Prefet hoe:"Tsy hoe karama, fa tsy maintsy
+                      hatolon-tsika ireo mpandray anjara ny sahaza ny
+                      dignitrin'ny tsirairay". "Ny mpifaninana course cycliste
+                      ve de homena valopy manify kely, na koa ireo mpanao
+                      vako-drazana, artiste zandriny ho fahanana rano eau vive fotsiny?". Hoy izy
+                      hoe: "Mila mahazo  considération ny rehetra"
                     </li>
                   </ul>
                 </section>
@@ -90,7 +124,7 @@ const Actualites = () => {
                         d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                       />
                     </svg>
-                    06 Mai 2026
+                    Jeudi 04 Juin 2026
                   </span>
                   <span className="flex items-center gap-1">
                     <svg
