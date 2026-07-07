@@ -1,179 +1,189 @@
 import { images } from "../assets/images";
 import imageRepresentatif from "../assets/imageRepresentatif.jpg";
 
+const actualites = Object.entries(images);
+
+const formatTitle = (key, index) => {
+  if (!key) return `Actualité ${index + 1}`;
+
+  return key
+    .replace(/[-_]/g, " ")
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+};
+
 const Actualites = () => {
   return (
-    <section className="py-16 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">
-          FANOMANANA NY FETIN'NY FAHALEOVANTENA 2026
-        </h2>
-        <section className="mb-12">
-          <div className="bg-white rounded-xl shadow-md p-8">
-            <div className="flex flex-col md:flex-row items-center gap-8">
-              <div className="md:w-2/3">
-                <span className="inline-block bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-4">
-                  Ny Vaovao Maresaka
-                </span>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Fivoriana mahakasika ny fanomanana ny fetin'ny fahaleovantena
-                  2026.
+    <section className="relative overflow-hidden bg-gradient-to-b from-white via-slate-50 to-white py-16 sm:py-20">
+      {/* Décor de fond */}
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute -left-20 -top-20 h-72 w-72 rounded-full bg-blue-100/50 blur-3xl" />
+        <div className="absolute right-0 top-1/3 h-80 w-80 rounded-full bg-purple-100/40 blur-3xl" />
+      </div>
+
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        {/* Meta */}
+        <div className="mb-8 flex flex-wrap items-center gap-3 text-sm text-slate-600">
+          <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 shadow-sm ring-1 ring-slate-200">
+            <svg
+              className="h-4 w-4 text-blue-600"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+              />
+            </svg>
+            Mardi 07 Juillet 2026 de 10h à 12h
+          </span>
+
+          <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 shadow-sm ring-1 ring-slate-200">
+            <svg
+              className="h-4 w-4 text-purple-600"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            2 min de lecture
+          </span>
+        </div>
+
+        {/* Titre */}
+        <div className="mb-10 max-w-4xl">
+          <span className="mb-4 inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-sm font-medium text-blue-700 ring-1 ring-blue-200">
+            Actualités du festival
+          </span>
+
+          <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
+            FIVORIANA MAHAKASIKA NY FESTIVAL TSAKOTSAKO SY TOMATE
+          </h2>
+        </div>
+
+        {/* Bloc principal */}
+        <section className="mb-14">
+          <div className="overflow-hidden rounded-3xl bg-white shadow-xl ring-1 ring-slate-200">
+            <div className="grid md:grid-cols-2">
+              {/* LEFT POUR CONTENU */}
+              <div className="flex flex-col justify-start p-8 sm:p-10 lg:p-12">
+                <h3 className="text-2xl font-bold text-slate-900 sm:text-3xl mb-0">
+                  Toerana anaovana Festival
                 </h3>
-                <section className="text-gray-600 mb-4 leading-relaxed space-y-4">
-                  <h1 className="text-blue-900 font-bold text-xl mb-0">
-                    Amin'ny ankapobeny
-                  </h1>
-                  <ul className="list-disc pl-6 space-y-2 text-base">
-                    <li>
-                      <strong>Ny toe-draharaha misy ankehitriny : </strong>
-                      <br />
-                      Andriamatoa Prefet d'Antsiranana no nanokatra ny fivoriana
-                      ka hoy izy hoe: "Maro ny activités sociales izay atao
-                      mialohan'ny 26 jiona sy mandritra izany ka ilana vola
-                      avikoa ny fanomanana rehetra izany".
-                      <ul className="list-disc pl-6 space-y-2 text-base">
-                        <li>
-                          Ao ny Activité sportive izay hifaninanan'ny
-                          mpiasam-panjakana;
-                        </li>
-                        <li>
-                          Ao ny Activité culturelle, ary hoy Préfet, tsy maintsy
-                          aseho ny maha-malagasy ka hoy izy hoe: "Tsy maintsy
-                          hasiana ireo mpanao vako-drazana tsy CD fa tena izy
-                          hita-maso, ary ny Talem-paritrin'ny kolontsaina efa
-                          tonga de mandray an-tanana izany avy hatrany".
-                        </li>
-                        <li>
-                          Ao ny Activité ho an'ny ankizy, toy ny radio-crochet
-                          ka ny Cisco no mandray antanana izany hoy izy.
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <strong>Ireo fomba fitadiavana vola: </strong>
-                      <br />
-                      Ny tapaka nandritra ny fivoriana dia hanao ball ny
-                      commission ka izany dia atao amin'ny 19 jiona 2026 ery
-                      amin'ny bâtiment hôtel de la poste taloha. Ka noho izany,
-                      ny Talé rehetra dia tsy maintsy mividy billet de couple
-                      amin'ny vidiny 70.000 Ar, ary tsy maintsy mahalafo billet
-                      30.000 Ar dimy amin'ny mpiara-miasa aminy, raha tsy izany
-                      dia izy no manefa billet rehetra.
-                      <br /> <br />
-                      Misy ihany koa ny demande de sponsoring izay tokony
-                      hataon'ny Talem-paritra tsirairay, isika mo ao
-                      anatin'izany satria, isika commerce dia ao anatin'ny
-                      Commission Finance. Nilaza mo ny Talen'ny Tanora, ny Rano,
-                      sy ny maro hafa teo anatrehan'ny Atoa Prefet fa efa
-                      mahalala sy zatra izany ny opérateur économique eto
-                      amintsika, ka tsy tokony hanahirana ny fanaovana ny
-                      demande de sponsoring. Ny tsy fanaovana azy aza no tokony
-                      hanenena satria fety hiaraha-manana io.
-                    </li>
-                    <li>
-                      <strong>Ny fizotran'ny fankalazana : </strong>
-                      <br />
-                      <ul className="list-disc pl-6 space-y-2 text-base">
-                        <li>
-                          Hatomboka ny fankalazana @ le 21 jiona 2026 ho avy
-                          izao amin'ny alalan'ny "Fetin'ny Mosika", arahina
-                          kabary tarihiny Préfet sy ireo manam-pahefana
-                          isan-tsokajiny izany.
-                        </li>
-                        <li>
-                          Ny 22 jiona 2026, radio-crochet, karaoké, orchestré
-                        </li>
-                        <li>
-                          Ny 25 jiona 2026, jusqu'à l'aube et commence à 18h ny
-                          retraite aux flambeaux izay hatrefin'ireo
-                          manam-pahefana sy Talém-paritra rehetra.
-                        </li>
-                        <li>
-                          Ny 26 jiona 2026, maraina be tokony hasina feon'ny
-                          Sambo maresaka be hoy ny Préfet.
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <strong>Ny antsipiriany : </strong>
-                      <br />
-                      Hoy SG Région: "Teneno amin'ireo olona mpifaninana, mpanao
-                      vako-drazana, sns, fa fentim-pirenena no hatao ka tsy vola
-                      na trophée no tanjona fa fiarahana". Namaly avy hatrany
-                      moa i Atoa Prefet hoe:"Tsy hoe karama, fa tsy maintsy
-                      hatolon-tsika ireo mpandray anjara ny sahaza ny
-                      dignitrin'ny tsirairay". "Ny mpifaninana course cycliste
-                      ve de homena valopy manify kely, na koa ireo mpanao
-                      vako-drazana, artiste zandriny ho fahanana rano eau vive fotsiny?". Hoy izy
-                      hoe: "Mila mahazo  considération ny rehetra"
-                    </li>
-                  </ul>
-                </section>
-                <div className="flex items-center gap-4 text-sm text-gray-500">
-                  <span className="flex items-center gap-1">
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      />
-                    </svg>
-                    Jeudi 04 Juin 2026
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                    2 min de lecture
-                  </span>
-                </div>
+
+                <ul className="mt-4 text-slate-600 leading-7 list-disc pl-5">
+                  <li>
+                    Festival TSAKOTSAKO: ANKETRAKABE du 31 juillet au 1er et 2
+                    août
+                  </li>
+                  <li>
+                    Festival TOMATE: ANKARONGANA du 31 juillet au 1er et 2 août
+                  </li>
+                </ul>
+
+                <h3 className="text-2xl font-bold text-slate-900 sm:text-3xl mb-0">
+                  NY TANJON'NY FESTIVAL
+                </h3>
+                <p className="mx-4 text-slate-600 leading-7">
+                  Maniry mafy ireo mpamboly mpisehatra amin'ny fambolena
+                  Tsakotsako sy Tomate mba hasiana kara atao amin'ny sehatrin'ny
+                  Vanille sy Cacao misy ny campagne sy ny prix planché fa
+                  mahatsiaro tena fa voa ry zareo amin'ny resaka Prix.
+                </p>
+
+                <h3 className="text-2xl font-bold text-slate-900 sm:text-2xl mb-0">
+                  NY TOERANA MISY NY SEHATRIN'NY TSAKOTSAKO ANKEHITRINY
+                </h3>
+                <p className="mx-4 text-slate-600 leading-7">
+                  Voalaza matetika tao fa ny Distrikan'ny Diégo II dia tsy
+                  manana la Vanille, Cacao, Anacarde, Ylang Ylang tahaka ny
+                  distrika sasany ao anatin'ny Faritra Diana, fa izy kosa dia
+                  manana tany izay tena midadasika tsy hita farany ary mety
+                  ambolena tsakotsako avikoa. Ankehitriny, raha ny vokatra no
+                  jerena hoy ny fikambanana "ANKETRAKABE VELOTEGNA TSAKOTSAKO",
+                  ny mpividy no tsy maharaka fa maro loatra ny tsakotsako
+                  vokarina ka miantso ny Ministeran'ny Varotra mba hijery ny
+                  lalambarotra fa antokan'ny fandrosoan'ny tantsaha sy ny
+                  faritra izany.
+                </p>
+
+                <h3 className="text-2xl font-bold text-slate-900 sm:text-2xl mb-0">
+                  NY TONTOLO ARA-PANJAKA MISY NY SEHATRIN'NY TSAKOTSAKO
+                  ANKEHITRINY
+                </h3>
+                <p className="mx-4 text-slate-600 leading-7">
+                  Ankehitriny, dia mbola tsy "COOPÉRATIVE" no misy fa
+                  fikambanana, ny Fitaleavam-paritrin'ny Fambolena no zaman-jaza
+                  araka ny voambolana matetika fampiasa nandritra ny fivoriana.
+                </p>
+
+                <h3 className="text-2xl font-bold text-slate-900 sm:text-2xl mb-0">
+                  NY ZAVATRA MILA HAREMINA AMIN'NY LAFINY FITANTANANA
+                </h3>
+                <p className="mx-4 text-slate-600 leading-7">
+                  Ity sehatra iray ity mo no sehatra izay nandaniana ny 50% ny
+                  fotoana nivoriana ary nalaminan tsy nilamina dia ny
+                  sehatrin'ny "ARA-BOLA". Samy te hitantam-bola ny Commune sy ny
+                  association ary nanaiky ny Atoa Ben'ny tanana araka ny
+                  fifanarahana efa ela fa ny association no hitanana ny vola
+                  miditra momba ny Tsakotsako. Kanefa ny hagagana fa tsisy na
+                  ariary ny association mahakasika ny TSAKOTSAKO Anketrakabe, fa
+                  ny TOMATY Ankarongana kosa dia nilaza fa ampy ny vola izay
+                  navory tamin'ny alalany Ristourne alaina amin'ny barrière
+                  économique.
+                </p>
               </div>
-              <div className="md:w-1/3">
-                <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg h-48 flex items-center justify-center">
-                  <img
-                    src={imageRepresentatif}
-                    alt="Image représentative"
-                    className="w-full h-full object-cover rounded-lg"
-                  />
+
+              {/* RIGHT POUR IMAGE DE imageRepresentatif */}
+              <div className="relative min-h-[280px]">
+                <img
+                  src={imageRepresentatif}
+                  alt="Image représentative du festival"
+                  className="h-full w-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-slate-900/10 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-6">
+                  <p className="text-sm font-medium uppercase tracking-[0.2em] text-white/80">
+                    Festival
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <div className="mb-8">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center gap-2">
-            <span className="w-1 h-6 bg-blue-600 rounded"></span>
+
+        {/* Titre section */}
+        <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <h3 className="flex items-center gap-3 text-xl font-bold text-slate-900 sm:text-2xl">
+            <span className="h-7 w-1.5 rounded-full bg-blue-600"></span>
             Toutes les actualités
           </h3>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {Object.values(images).map((item, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-lg shadow-md overflow-hidden"
+
+        {/* Grille actualités */}
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
+          {actualites.map(([key, item], index) => (
+            <article
+              key={key || index}
+              className="group overflow-hidden rounded-2xl bg-white shadow-md ring-1 ring-slate-200 transition duration-300"
             >
-              <img
-                src={item}
-                alt={`Actualité ${index}`}
-                className="w-full h-48 object-cover"
-              />
-            </div>
+              <div className="relative overflow-hidden">
+                <img
+                  src={item}
+                  alt={formatTitle(key, index)}
+                  className="h-56 w-full object-cover transition duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-slate-900/10 to-transparent opacity-80" />
+              </div>
+            </article>
           ))}
         </div>
       </div>
