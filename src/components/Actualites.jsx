@@ -111,8 +111,8 @@ const Actualites = () => {
                   jerena hoy ny fikambanana "ANKETRAKABE VELOTEGNA TSAKOTSAKO",
                   ny mpividy no tsy maharaka fa maro loatra ny tsakotsako
                   vokarina ka miantso ny Ministeran'ny Varotra mba hijery ny
-                  lalambarotra fa antokan'ny fandrosoan'ny tantsaha sy ny
-                  faritra izany.
+                  lalambarotra tsaratsara kokoa noho izay efa misy ankehitriny
+                  fa antokan'ny fandrosoana ny tantsaha sy ny faritra izany.
                 </p>
 
                 <h3 className="text-2xl font-bold text-slate-900 sm:text-2xl mb-0">
@@ -121,8 +121,9 @@ const Actualites = () => {
                 </h3>
                 <p className="mx-4 text-slate-600 leading-7">
                   Ankehitriny, dia mbola tsy "COOPÉRATIVE" no misy fa
-                  fikambanana, ny Fitaleavam-paritrin'ny Fambolena no zaman-jaza
-                  araka ny voambolana matetika fampiasa nandritra ny fivoriana.
+                  fikambanana, ny Fitaleavam-paritrin'ny Fambolena no
+                  zaman-djaza araka ny voambolana matetika fampiasa nandritra ny
+                  fivoriana.
                 </p>
 
                 <h3 className="text-2xl font-bold text-slate-900 sm:text-2xl mb-0">
