@@ -94,9 +94,10 @@ const Actualites = () => {
                 </h3>
                 <p className="mx-4 text-slate-600 leading-7">
                   Maniry mafy ireo mpamboly mpisehatra amin'ny fambolena
-                  Tsakotsako sy Tomate mba hasiana kara atao amin'ny sehatrin'ny
-                  Vanille sy Cacao misy ny campagne sy ny prix planché fa
-                  mahatsiaro tena fa voa ry zareo amin'ny resaka Prix.
+                  Tsakotsako sy Tomate mba hasiana karaha atao amin'ny
+                  sehatran'ny Vanille sy Cacao misy ny campagne sy ny prix
+                  planché fa mahatsiaro tena fa voa ry zareo amin'ny resaka
+                  Prix.
                 </p>
 
                 <h3 className="text-2xl font-bold text-slate-900 sm:text-2xl mb-0">
