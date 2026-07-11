@@ -153,7 +153,7 @@ const Actualites = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-slate-900/10 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <p className="text-sm font-medium uppercase tracking-[0.2em] text-white/80">
-                    Festival
+                    Ady doro tanety, hatiala, tanana
                   </p>
                 </div>
               </div>
