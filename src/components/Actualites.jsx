@@ -37,7 +37,7 @@ const Actualites = () => {
                 d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
               />
             </svg>
-            Mardi 07 Juillet 2026 de 10h à 12h
+            Vendredi 10 Juillet 2026 de 08h30 à 14h
           </span>
 
           <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 shadow-sm ring-1 ring-slate-200">
@@ -61,11 +61,12 @@ const Actualites = () => {
         {/* Titre */}
         <div className="mb-10 max-w-4xl">
           <span className="mb-4 inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-sm font-medium text-blue-700 ring-1 ring-blue-200">
-            Actualités du festival
+            Actualités du contingence pour lutter contre le feux de brouse
           </span>
 
-          <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            FIVORIANA MAHAKASIKA NY FESTIVAL TSAKOTSAKO SY TOMATE
+          <h2 className="text-5xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
+            ANTRIKASA FANKAN-KEVITRA MAHAKASIKA NY ADY AMIN'NY DORO ATIHALA,
+            TANETY, TANANA
           </h2>
         </div>
 
@@ -76,71 +77,69 @@ const Actualites = () => {
               {/* LEFT POUR CONTENU */}
               <div className="flex flex-col justify-start p-8 sm:p-10 lg:p-12">
                 <h3 className="text-2xl font-bold text-slate-900 sm:text-3xl mb-0">
-                  Toerana anaovana Festival
+                  ANTONY FIVORIANA
                 </h3>
 
-                <ul className="mt-4 text-slate-600 leading-7 list-disc pl-5">
-                  <li>
-                    Festival TSAKOTSAKO: ANKETRAKABE du 31 juillet au 1er et 2
-                    août
-                  </li>
-                  <li>
-                    Festival TOMATE: ANKARONGANA du 31 juillet au 1er et 2 août
-                  </li>
-                </ul>
+                <p className="mx-4 text-slate-600 leading-7 text-justify">
+                  Manoloana ny doro tanety, hatiala na koa tanana izay miseho
+                  etsy sy eroa, dia nahatsapa ny BNGRC fa misy ny tsy
+                  fandraisana andraikitr'ireo manampahefana isan-tsokajiny. Tsy
+                  hifanomezan-tsiny anefa izany satria ny rafitra mazava
+                  hiadiana amin'izany dia mbola tsy mipetraka tsara ka samy
+                  misalasala, mifampiandriandry manolohana ny fandraisana
+                  antanana ny zava misy. Ka natao ity hatrikasa ity mba ho teny
+                  hifampiherana amin'ny rehetra mba hisian'ny fiaraha-mientan'ny
+                  tsirairay ka izay tsy mana-fatambary mba manana sobika fa tsy
+                  tokony ankinina amin'ny Pompier (Commune), na DRED, na MNP
+                  ihany rehefa misy trangan'afo.
+                </p>
 
                 <h3 className="text-2xl font-bold text-slate-900 sm:text-3xl mb-0">
-                  NY TANJON'NY FESTIVAL
+                  NY ZAVA MISY ANKEHITRINY AMIN'NY RESAKA MATERIALY SY NY VOLA
                 </h3>
-                <p className="mx-4 text-slate-600 leading-7">
-                  Maniry mafy ireo mpamboly mpisehatra amin'ny fambolena
-                  Tsakotsako sy Tomate mba hasiana karaha atao amin'ny
-                  sehatran'ny Vanille sy Cacao misy ny campagne sy ny prix
-                  planché fa mahatsiaro tena fa voa ry zareo amin'ny resaka
-                  Prix.
+                <p className="mx-4 text-slate-600 leading-7 text-justify">
+                  Natao ny recensement manerana ny faritra ka hatramin'ny any
+                  hifotony, ny tsapa dia rantsa-kazo, mesobe, angady no
+                  fitaovana ampiasaina rehefa misy doro tanety mitranga, ny afo
+                  anefa mijoalajola ka indraidray efa zaham-potsiny "sao de ny
+                  mpamono afo indray no may" hoy ry zareo avy ambanja. Nanohy ry
+                  zareo avy amin'ny Prefetiora Nosy Be fa ny tsy fahampiany vola
+                  sy fotoana hakana azy amin'ny Trésor no mila hankamoraina
+                  satria mihazakazaka ny afo. Hatreto alo, hoy ity farany ny
+                  partenaire (opérateurs) no tena manampy amin'ny fampindramana
+                  fitaovana, ka rehefa tsy nahefa izy dia sahirana isika.
                 </p>
 
                 <h3 className="text-2xl font-bold text-slate-900 sm:text-2xl mb-0">
-                  NY TOERANA MISY NY SEHATRIN'NY TSAKOTSAKO ANKEHITRINY
+                  NY TAPAKIN'NY BE SY NY MARO
                 </h3>
-                <p className="mx-4 text-slate-600 leading-7">
-                  Voalaza matetika tao fa ny Distrikan'ny Diégo II dia tsy
-                  manana la Vanille, Cacao, Anacarde, Ylang Ylang tahaka ny
-                  distrika sasany ao anatin'ny Faritra Diana, fa izy kosa dia
-                  manana tany izay tena midadasika tsy hita farany ary mety
-                  ambolena tsakotsako avikoa. Ankehitriny, raha ny vokatra no
-                  jerena hoy ny fikambanana "ANKETRAKABE VELOTEGNA TSAKOTSAKO",
-                  ny mpividy no tsy maharaka fa maro loatra ny tsakotsako
-                  vokarina ka miantso ny Ministeran'ny Varotra mba hijery ny
-                  lalambarotra tsaratsara kokoa noho izay efa misy ankehitriny
-                  fa antokan'ny fandrosoana ny tantsaha sy ny faritra izany.
+                <p className="mx-4 text-slate-600 leading-7 text-justify">
+                  Manoloana ny ady hevitra mafana dia nandray fitenena Atoa
+                  Préfet Antsiranana: andraikitrin'ny rehetra ny ady amin'ny afo
+                  na dia eo aza ireo Fitalevam-paritra voakasika mivantana
+                  amin'izany. Fa na izany aza hoy izy, tsy izay afo rehetra
+                  miseho no efa hanairana antsika rehetra fa manao alo ny
+                  "niveau local" tsy voatohitra ny afo mande "niveau régional",
+                  ny farany "niveau national". Fa eo indrindra hoy izy jerena
+                  koa ny risque, hakaikin'ny trano fonenana ve, Air Protégé ve,
+                  Bozaka ve, eo no ahafatarana gros moyen avy hatrany no
+                  hampiasaina sa tsia. Satria, vola ny manetsika fiara, olona,
+                  sns.
                 </p>
 
                 <h3 className="text-2xl font-bold text-slate-900 sm:text-2xl mb-0">
-                  NY TONTOLO ARA-PANJAKA MISY NY SEHATRIN'NY TSAKOTSAKO
-                  ANKEHITRINY
+                  DIVERS
                 </h3>
                 <p className="mx-4 text-slate-600 leading-7">
-                  Ankehitriny, dia mbola tsy "COOPÉRATIVE" no misy fa
-                  fikambanana, ny Fitaleavam-paritrin'ny Fambolena no
-                  zaman-djaza araka ny voambolana matetika fampiasa nandritra ny
-                  fivoriana.
-                </p>
-
-                <h3 className="text-2xl font-bold text-slate-900 sm:text-2xl mb-0">
-                  NY ZAVATRA MILA HAREMINA AMIN'NY LAFINY FITANTANANA
-                </h3>
-                <p className="mx-4 text-slate-600 leading-7">
-                  Ity sehatra iray ity mo no sehatra izay nandaniana ny 50% ny
-                  fotoana nivoriana ary nalaminan tsy nilamina dia ny
-                  sehatrin'ny "ARA-BOLA". Samy te hitantam-bola ny Commune sy ny
-                  association ary nanaiky ny Atoa Ben'ny tanana araka ny
-                  fifanarahana efa ela fa ny association no hitanana ny vola
-                  miditra momba ny Tsakotsako. Kanefa ny hagagana fa tsisy na
-                  ariary ny association mahakasika ny TSAKOTSAKO Anketrakabe, fa
-                  ny TOMATY Ankarongana kosa dia nilaza fa ampy ny vola izay
-                  navory tamin'ny alalany Ristourne alaina amin'ny barrière
-                  économique.
+                  Nandritra ny pause déjeuner no nanantonan'I PRMP Polutation sy
+                  Atao Habibe ny tenako mahakasika ny trangan'ny "Epicerie
+                  Casino" izay mameno ny helaketrano manerana ny fokotony.
+                  Nitaraina ny iray voalohany fa mampangalatra ny zaniny ny
+                  filalaovana Casino eny amin'ny Epicerie, ny faharoa indray
+                  nitaraina fa hakaiky Ecole loatra ny Salle des Jeux Vidéo ka
+                  tsy tafifantoka ampianarana ny zanany. Hisy hetsika hoy ny avy
+                  amin'ny Population ho ataon'ny zareo ka mbola ho tonga hoy izy
+                  hiresaka amin'ny Talé mba angataka fiaraha-miasa.
                 </p>
               </div>
 
